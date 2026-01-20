@@ -1,0 +1,11 @@
+{
+  "name": "echoes",
+  "version": "0.1.0",
+  "description": "i18n/Localization module",
+  "type": "module",
+  "targets": ["infinity", "matrix"],
+  "dependencies": {
+    "services": [],
+    "modules": []
+  }
+}
