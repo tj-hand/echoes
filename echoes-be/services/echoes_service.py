@@ -473,14 +473,14 @@ class EchoesService:
         Get list of available locales.
 
         Returns:
-            List of locale dicts with 'code', 'name', 'nativeName'
+            List of locale dicts with 'code', 'name', 'native_name'
         """
         return [
-            {"code": "en", "name": "English", "nativeName": "English"},
-            {"code": "pt", "name": "Portuguese", "nativeName": "Português"},
-            {"code": "es", "name": "Spanish", "nativeName": "Español"},
-            {"code": "fr", "name": "French", "nativeName": "Français"},
-            {"code": "de", "name": "German", "nativeName": "Deutsch"},
+            {"code": "en", "name": "English", "native_name": "English"},
+            {"code": "pt", "name": "Portuguese", "native_name": "Português"},
+            {"code": "es", "name": "Spanish", "native_name": "Español"},
+            {"code": "fr", "name": "French", "native_name": "Français"},
+            {"code": "de", "name": "German", "native_name": "Deutsch"},
         ]
 
     def detect_locale(self, accept_language: Optional[str]) -> str:
